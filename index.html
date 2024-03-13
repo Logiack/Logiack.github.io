@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Probando</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="probando1">
+                <h1 class="titulos"><a href="index.html">Encriptador</a></h1>
+                <p class="par">No usar mayusculas, acentos ni simbolos.</p>         
+            </div>
+        </header>
+        <main>
+            <div class="texto1">
+                <textarea class="encriptador" id="encriptar" cols="40" rows="10" placeholder="Texto a Encriptar"></textarea>
+                <textarea class="encriptador" id="desencriptar" cols="30" rows="10" placeholder="Texto Encriptado"></textarea>
+            </div>
+            <div class="boton-accion">
+                <button class="botones" id="boton-encriptar" onclick="btnLock()">Encriptar</button>
+                <button class="botones" id="boton-desencriptar" onclick="btnUnlock()">Desencriptar</button>
+                <button class="botones" id="copy" onclick="copyText()">Copiar</button>
+            </div>        
+        </main>
+
+        <footer>
+            <div class="containerPie">
+                <p class="piePag">Creado por Javier González Porras</p>
+                <p class="piePag">© Alura Latam - 2024</p>
+            </div>
+
+        </footer>
+        <script src="encrip.js"></script>   
+    </body>
+</html>

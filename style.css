@@ -1,0 +1,107 @@
+
+body{
+    background-image: url(imagenes/peakpx.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.probando1{
+    width: 940px;
+    margin: 0 auto;
+    background: linear-gradient(#000000 70%, #6babfd);
+    padding: 40px;
+    border-radius: 10px;
+    opacity: 0.9;
+    box-shadow: 0 10px 15px 7px #6babfd;
+}
+
+.titulos{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor:pointer;
+    text-align: center;
+}
+
+.titulos a{
+    color: #ffffff;
+}
+
+.probando1 .par{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.texto1{
+    width: 840px;
+    margin: 70px auto;
+}
+.texto1 .encriptador{
+    background: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    opacity: 0.8;
+    border-radius: 8px;
+}
+
+.boton-accion{
+    position: relative;
+    left: 285px;
+    bottom: 50px;
+    display: inline;
+}
+
+.botones{
+    margin: 0 25px;
+    color: #ffffff;
+    background: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.boton-accion #boton-encriptar{
+    padding: 10px 37px;
+}
+
+.boton-accion #copy{
+    position: relative;
+    left: 130px;
+    padding: 10px 50px;
+    transition: none;
+}
+
+#copy:active{
+    background: darkorange;
+}
+
+.botones:hover{
+    cursor: pointer;
+    background: #cccccc;
+    color: #000000;
+    transform: scale(1.2);
+}
+
+footer{
+    background: #000000;
+    padding: 40px;
+}
+
+.containerPie{
+    width: 340px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.piePag{
+    color: #ffffff;
+    font-size: 13px;
+}
