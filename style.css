@@ -8,10 +8,10 @@ body{
 .probando1{
     width: 940px;
     margin: 0 auto;
+    background: #000000;
     padding: 40px;
     border-radius: 10px;
     opacity: 0.9;
-    box-shadow: 0 10px 15px 7px #6babfd;
 }
 
 .titulos{
