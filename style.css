@@ -26,7 +26,7 @@ body{
     color: #ffffff;
 }
 
-.probando1 .par{
+.titulo1 .par{
     color: #ffffff;
     text-align: center;
     margin-top: 20px;
@@ -78,15 +78,15 @@ body{
     transition: none;
 }
 
-#copy:active{
-    background: darkorange;
-}
-
 .botones:hover{
     cursor: pointer;
     background: #cccccc;
     color: #000000;
     transform: scale(1.2);
+}
+
+#copy:active{
+    background: darkgreen;
 }
 
 footer{
